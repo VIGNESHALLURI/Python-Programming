@@ -1,3 +1,0 @@
-#Write a Python program to convert an integer to a float.
-x = 10
-print("Converted to float:", float(x))

@@ -1,3 +1,0 @@
-#Write a Python program to convert a float to an integer.
-x = 9.87
-print("Converted to int:", int(x))
