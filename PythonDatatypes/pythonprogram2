@@ -1,0 +1,5 @@
+x = 5.5
+y = 2.3
+z = x * y
+print("Product =", z)
+print("Type of z:", type(z))
