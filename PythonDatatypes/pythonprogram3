@@ -1,0 +1,5 @@
+name = "Vignesh"
+print("String:", name)
+print("First character:", name[0])
+print("Length:", len(name))
+print("Uppercase:", name.upper())
