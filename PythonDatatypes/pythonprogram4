@@ -1,0 +1,5 @@
+fruits = ["apple", "banana", "cherry"]
+print("List:", fruits)
+fruits.append("mango")
+print("After adding:", fruits)
+print("First element:", fruits[0])
