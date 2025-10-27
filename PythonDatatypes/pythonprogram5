@@ -1,0 +1,3 @@
+colors = {"red", "green", "blue"}
+colors.add("yellow")
+print("Set:", colors)
