@@ -1,0 +1,10 @@
+city="banglore"
+#ang
+print(city[1:4])
+print(city[-7:-4])
+#ngal
+print(city[2:5])
+print(city[-6:-3])
+#ore
+print(city[5:8])
+print(city[-3:])
