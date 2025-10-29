@@ -1,0 +1,4 @@
+sentence = "pythonfullstack"
+substring = sentence[4:9]
+print("Original Sentence:", sentence)
+print("Sliced Portion (4:9):", substring)
