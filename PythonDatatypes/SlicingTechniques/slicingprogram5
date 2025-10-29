@@ -1,0 +1,4 @@
+text = "VIGNESHVARMA"
+result = text[::2]
+print("Original Text:", text)
+print("Every 2nd Character:", result)
