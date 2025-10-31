@@ -1,0 +1,6 @@
+#take array 1/list1 with some random numbers. 
+#copy the elements of that array / list into a second array2 / list2 in reverse order.
+list1 = [5, 12, 7, 9, 20, 3]
+list2 = list1[::-1]
+print("Original list (list1):", list1)
+print("Reversed copy (list2):", list2)
