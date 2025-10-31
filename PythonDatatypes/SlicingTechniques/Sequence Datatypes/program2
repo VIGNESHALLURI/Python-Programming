@@ -1,0 +1,8 @@
+#take an array / list of 10 random numbers. print elements in reverse order. 
+#python students using for loop with ranges. java people should use a for loop.
+numbers = [10, 25, 3, 47, 58, 62, 71, 89, 90, 15]
+print("Original list:", numbers)
+print("Elements in reverse order:")
+for i in range(len(numbers) - 1, -1, -1):
+    print(numbers[i])
+
