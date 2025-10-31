@@ -1,0 +1,14 @@
+#take an array / list of 10 random numbers. copy even numbers into array2/list2. copy odd 
+#numbers into array3/list3. don't use copy() or other copying methods.
+import random
+list1 = [random.randint(1, 100) for _ in range(10)]
+print("Original List:", list1)
+list2 = [] 
+list3 = [] 
+for num in list1:
+    if num % 2 == 0:
+        list2.append(num)
+    else:
+        list3.append(num)
+print("Even numbers (list2):", list2)
+print("Odd numbers (list3):", list3)
