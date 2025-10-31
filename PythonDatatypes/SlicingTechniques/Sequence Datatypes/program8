@@ -1,0 +1,16 @@
+#take an array / list of 10 random numbers. find even big and odd big in that array / list. don't use 
+#the max() function
+import random
+numbers = [random.randint(1, 100) for _ in range(10)]
+print("Random List:", numbers)
+largest_even = None
+largest_odd = None
+for num in numbers:
+    if num % 2 == 0:
+        if largest_even is None or num > largest_even:
+            largest_even = num
+    else:
+        if largest_odd is None or num > largest_odd:
+            largest_odd = num
+print("Largest Even Number:", largest_even)
+print("Largest Odd Number:", largest_odd)
