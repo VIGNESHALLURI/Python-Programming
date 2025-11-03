@@ -1,0 +1,8 @@
+#Read your name, fav place, fav movie, fav hobby from user and add them to the dictionary.
+user_info = {}
+user_info['name'] = input("Enter your name: ")
+user_info['fav_place'] = input("Enter your favorite place: ")
+user_info['fav_movie'] = input("Enter your favorite movie: ")
+user_info['fav_hobby'] = input("Enter your favorite hobby: ")
+print("User Information Dictionary:")
+print(user_info)
