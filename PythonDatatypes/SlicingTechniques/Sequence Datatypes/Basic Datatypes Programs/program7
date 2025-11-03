@@ -1,0 +1,8 @@
+# read 2 float values from user and perform substraction and multiplication.
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+subtraction = a - b
+multiplication = a * b
+print("Subtraction:", subtraction)
+print("Multiplication:", multiplication)
+
