@@ -1,0 +1,6 @@
+# l = [1,20,34,True] read one element from user and add it to the list and print length of the list.
+l = [1, 20, 34, True]
+element = input("Enter an element to add: ")
+l.append(element)
+print("Updated List:", l)
+print("Length of List:", len(l))
