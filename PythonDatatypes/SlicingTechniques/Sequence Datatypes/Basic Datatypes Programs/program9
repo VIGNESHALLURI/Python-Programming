@@ -1,0 +1,6 @@
+# Create a set with 6 elements and delete first 2 elements.
+s = {"apple", "banana", "cherry", "grape", "orange", "mango"}
+print("Original set:", s)
+for i in range(2):
+    s.pop() 
+print("Set after deleting 2 elements:", s)
