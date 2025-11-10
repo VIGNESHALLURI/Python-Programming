@@ -1,7 +1,0 @@
-#take an arr / list with some numbers. print even nos present in the even positions.
-numbers = [10, 15, 22, 33, 44, 55, 66, 77]
-print("Original list:", numbers)
-print("Even numbers in even positions:")
-for i in range(0, len(numbers), 2):  
-    if numbers[i] % 2 == 0:
-        print(numbers[i], end=" ")

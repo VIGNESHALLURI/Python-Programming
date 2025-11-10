@@ -1,6 +1,0 @@
-# sequence_program1.py
-s = "PYTHON"
-print("Original String:", s)
-print("First 3 characters:", s[:3])
-print("Last 2 characters:", s[-2:])
-print("Characters from index 1 to 4:", s[1:5])

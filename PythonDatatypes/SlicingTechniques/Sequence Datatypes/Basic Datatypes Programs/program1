@@ -1,7 +1,0 @@
-# 15 // 4
-num1 = 15
-num2 = 4
-
-result = num1 // num2 
-
-print("Result of 15 // 4 is:", result)

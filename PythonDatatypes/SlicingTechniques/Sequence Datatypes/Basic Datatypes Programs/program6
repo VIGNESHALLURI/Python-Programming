@@ -1,6 +1,0 @@
-#a = "welcome" 
-#b = "everyone" concat both the strings and print the result?
-a = "welcome"
-b = "everyone"
-result = a + " " + b
-print(result)

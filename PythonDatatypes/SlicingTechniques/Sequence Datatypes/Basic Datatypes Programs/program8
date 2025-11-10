@@ -1,8 +1,0 @@
-# Create a tuple with 10 elements and print last 3 elements and modify the first element as 'apple'.
-t = ("banana", "cherry", "date", "grape", "orange", "mango", "kiwi", "pear", "plum", "melon")
-print("Last 3 elements:", t[-3:])
-t_list = list(t)
-t_list[0] = "apple"  
-t = tuple(t_list)   
-print("Modified tuple:", t)
-

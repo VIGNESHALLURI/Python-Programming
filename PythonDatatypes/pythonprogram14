@@ -1,6 +1,0 @@
-# 8. Area and perimeter of rectangle
-l, w = 5, 3
-area = l * w
-perimeter = 2 * (l + w)
-print("Area =", area, "Perimeter =", perimeter)
-

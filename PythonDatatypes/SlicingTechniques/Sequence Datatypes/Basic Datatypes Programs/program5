@@ -1,6 +1,0 @@
-# s = "perfectly imperfect " print alternate, reverse and reverse alternate elements
-s = "perfectly imperfect"
-print("Alternate characters:", s[::2])
-print("Reversed string:", s[::-1])
-print("Reverse alternate characters:", s[::-2])
-

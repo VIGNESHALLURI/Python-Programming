@@ -1,3 +1,0 @@
-nums = [8, 3, 1, 9, 5]
-print("Ascending:", sorted(nums))
-print("Descending:", sorted(nums, reverse=True))

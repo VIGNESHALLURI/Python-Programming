@@ -1,7 +1,0 @@
-#take an array / list of 10 random numbers. print alternate elements 0th, 2nd, 4th etc.
-#Python students use for loop with ranges. java should use a for loop.
-numbers = [12, 45, 23, 67, 89, 34, 56, 78, 90, 11]
-print("Original list:", numbers)
-print("Alternate elements (0th, 2nd, 4th, etc.):")
-for i in range(0, len(numbers), 2):
-    print(numbers[i])

@@ -1,5 +1,0 @@
-# 17 / 6
-num1 = 17
-num2 = 6
-result = num1 / num2
-print("Division of", num1, "by", num2, "=", result)

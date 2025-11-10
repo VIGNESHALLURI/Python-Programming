@@ -1,6 +1,0 @@
-proverb ="prevention is better"
-#alternate characters
-print(proverb[::2])
-#reverse alternate numbers
-print(proverb[19: :-1])
-print(proverb[::-1])
