@@ -1,0 +1,79 @@
+"""l = [10,20,30,40]
+for i in l:
+    print(i)"""
+
+"""#create one tuple with 5 elements and print all of them.
+t = (1,2,3,4,5)
+for i in t:
+    print(i)"""
+
+"""#create a string and print all characters one by one.
+s ='welcome'
+for i in s:
+    print(i)"""
+
+"""#create a set with some elements and print all of them
+s1 = {10,"hii",True,67}
+for i in s1:
+    print(i)"""
+
+"""#create a list with 10 elements and print alternate elements.
+l = [1,2,3,4,5,6,7,8,9,10]
+for i in range(0, len(l), 2):
+    print(l[i])"""
+
+"""#create a tuple with  6 elements and print sum of all those elements.
+tuple = [1,2,23,34,45]
+sum1 = 0
+for i in tuple:
+    sum1 = sum1 + i
+print(sum1)"""
+
+"""#create a list with  5 elements and print sum of all those elements.
+list = [1,2,23,34,45]
+sum1 = 0
+for i in list:
+    sum1 = sum1 + i
+print(sum1)"""
+
+"""#create a set with 7 numbers and print sum of all those elements.
+set = {1,2,3,4,5,6,7}
+sum1 = 0
+for i in set:
+    sum1 = sum1 +i
+print(sum1)"""
+
+"""#create  a list with 10 elements and print sum of odd elements.
+l = [1,2,3,4,5,6,7,8,9,10]
+sum = 0
+for i in l:
+    if i % 2 != 0:
+        sum = sum + i
+print(sum)"""
+
+"""#create  a list with 10 elements and print sum of odd elements.
+list = [1,2,3,4,5,6,7,8,9,10]
+sum = 0
+for i in list:
+    if i % 2 != 0:
+        sum = sum + i
+print(sum)
+
+#create  a tuple with 10 elements and print sum of odd elements.
+tuple = [1,2,3,4,5,6,7,8,9,10]
+sum = 0
+for i in tuple:
+    if i % 2 != 0:
+        sum = sum + i
+print(sum)"""
+
+"""#create a tuple with 6 elements and print all the elements
+#Also print reverse alternate and alternate elements.
+tuple = (1,2,3,4,5,6,)
+for i in range(len(tuple)-1,-1,-2):
+    print(tuple[i])"""
+
+#dictionary 
+d = {'a':10,'b':20,'c':30,'d':40}
+for i in d:
+    print(i,d[i])
