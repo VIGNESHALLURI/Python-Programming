@@ -1,0 +1,120 @@
+"""#Check even or odd
+number = int(input("enter a number:"))
+if number %2 == 0:
+    print("it is a even number")
+else:
+    print("it is a odd number")"""
+
+"""#Check positive or negative
+number = int(input("enter a number:"))
+if number > 0:
+    print("enter given number is positive")
+else:
+    print("enter a given is negative")"""
+
+"""#Check pass or fail.
+def check(marks):
+    if marks >= 35:
+        return "student is passed"
+    else:
+        return "student is failed"
+res=check(int(input("enter the marks:")))
+print(res)"""
+
+"""#Check eligible to vote
+def vote(age):
+    if age >= 18:
+        return "candidate eligible to vote"
+    else:
+        return 'candidate not eligible to vote'
+res=vote(int(input("enter age:")))
+print(res)"""
+
+"""#Check greatest among 2 numbers
+def check(n1,n2):
+    if n1 > n2:
+        return "{n1} is greater than n2"
+    else:
+        return "{n2} is greater than n1"
+res=check(int(input("enter a n1:")),int(input("enter a n2:")))
+print(res)"""
+
+"""#check smallest amount 2 numbers
+def check(n1,n2):
+    if n1 < n2:
+        return "{n1} is smaller than n2"
+    else:
+        return "{n2} is smaller than n1"
+res=check(int(input("enter a n1 :")),int(input("enter a n2:")))
+print(res)"""
+
+"""#Check if number is divisible by 3 else show not divisible
+def check(num):
+    if num % 3==0:
+        return "number is divisible by 3"
+    else:
+        return "number is not divisible by 3"
+res=check(int(input("enter a number:")))
+print(res)"""
+
+"""#Check if character is vowel else consonant.
+def check(char):
+    s = "aeiouAEIOU"
+    if char in s:
+        return "given character is vowel"
+    else: 
+        return "given character is consonant"
+res=check(input("enter a character:"))
+print(res)"""
+
+"""#Check if number is zero or non-zero
+def check(num):
+    if num == 0:
+        return "number is zero"
+    else:
+        return "number is non-zero"
+res=check(int(input("enter a number:")))
+print(res)"""
+    
+"""#check Login success / login failed
+def login(username, password):
+    if username == "vignesh123" and password == "12345":
+        return "Login Success"
+    else:
+        return "Login Failed
+res = login(input("Enter username: "), input("Enter password: "))
+print(res)"""
+
+"""#Discount applicable or not.
+def discount(amount):
+    if amount >= 1000:
+        return "Discount applicable"
+    else:
+        return "not Discount applicable"
+amount=discount(int(input("enter a amount:")))
+print(amount)"""
+
+"""#Check if number ends with 0
+def check(num):
+    if num % 10 == 0:
+        return "number ends with 0"
+    else:
+        return "number not ends with 0"
+number=check(int(input("enter a number:")))
+print(number)"""
+
+"""#Check if string is palindrome (basic).
+def palindrome(string):
+    if string ==string[::-1]:
+        return "return string is palindrome"
+    else:
+        return "return string is not palindrome"
+res=palindrome(input("enter a string:"))
+print(res)"""
+
+
+        
+
+
+                       
+    

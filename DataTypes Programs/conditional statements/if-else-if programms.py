@@ -86,7 +86,7 @@ def fetch(n1,n2,n3):
         return f"{n2} is the biggest"
     else:
         return f"{n3} is the biggest"
-res = fetch(int(input("n1: ")),int(input("n2: ")),int(input("n2: ")))
+res = fetch(int(input("n1: ")),int(input("n2: ")),int(input("n3: ")))
 print(res)
 
 

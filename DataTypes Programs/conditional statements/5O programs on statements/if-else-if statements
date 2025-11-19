@@ -1,0 +1,136 @@
+#Print grade A/B/C/Fail
+"""marks=int(input("enter a marks:"))
+if marks >=90:
+    print("grade is A")
+elif marks >=75:
+    print("grade is B")
+elif marks >=60:
+    print("grade is c")
+else:
+    print("Fail")"""
+
+"""#Identify positive/ negative/ zero
+num = int(input("enter a number:"))
+if num >0:
+    print("positive number")
+elif num <0:
+    print("negative number")
+else:
+    print("zero")"""
+
+"""#Find largest among 3 numbers.
+num1 =int(input("enter a first number:"))
+num2 =int(input("enter a second number:"))
+num3 =int(input("enter a third number:"))
+if num1 > num2 and num1 > num3:
+    print(" num1 is largest")
+elif num2 > num3 and num2 > num1:
+    print("num2 is largest")
+else:
+    print("num3 is largest")"""
+#Menu-driven program (add / subtract / multiply / divide)
+"""
+def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
+
+def multiply(a, b):
+    return a * b
+
+def divide(a, b):
+    if b != 0:
+        return a / b
+    else:
+        return "Cannot divide by zero"
+
+while True:
+    print("\nMenu:")
+    print("1. Add")
+    print("2. Subtract")
+    print("3. Multiply")
+    print("4. Divide")
+    print("5. Exit")
+
+    choice = input("Enter your choice (1-5): ")
+
+    if choice == '5':
+        print("Exiting...")
+        break
+
+    num1 = float(input("Enter first number: "))
+    num2 = float(input("Enter second number: "))
+
+    if choice == '1':
+        print("Result:", add(num1, num2))
+    elif choice == '2':
+        print("Result:", subtract(num1, num2))
+    elif choice == '3':
+        print("Result:", multiply(num1, num2))
+    elif choice == '4':
+        print("Result:", divide(num1, num2))
+    else:
+        print("Invalid choice")"""
+
+"""#Print week name using day number.
+day = int(input("Enter day number (1-7): "))
+if day == 1:
+    print("Sunday")
+elif day == 2:
+    print("Monday")
+elif day == 3:
+    print("Tuesday")
+elif day == 4:
+    print("Wednesday")
+elif day == 5:
+    print("Thursday")
+elif day == 6:
+    print("Friday")
+elif day == 7:
+    print("Saturday")
+else:
+    print("Invalid day number")"""
+
+"""#Check type of triangle (equilateral / isosceles / scalene
+a = float(input("Enter side a: "))
+b = float(input("Enter side b: "))
+c = float(input("Enter side c: "))
+
+if a + b > c and a + c > b and b + c > a:
+    if a == b == c:
+        print("Equilateral triangle")
+    elif a == b or b == c or a == c:
+        print("Isosceles triangle")
+    else:
+        print("Scalene triangle")
+else:
+    print("Not a valid triangle")"""
+
+"""#Check age category (child/teen/adult/senior)
+age = int(input("Enter your age: "))
+if age >= 0 and age <= 12:
+    print("Child")
+elif age >= 13 and age <= 19:
+    print("Teen")
+elif age >= 20 and age <= 59:
+    print("Adult")
+elif age >= 60:
+    print("Senior")
+else:
+    print("Invalid age")"""
+
+#Check season based on month.
+month = input("Enter month name: ").capitalize()
+if month in ["December", "January", "February"]:
+    print("Winter")
+elif month in ["March", "April", "May"]:
+    print("summer")
+elif month in ["June", "July", "August"]:
+    print("rainy")
+elif month in ["September", "October", "November"]:
+    print("Autumn")
+else:
+    print("Invalid month")
+
+

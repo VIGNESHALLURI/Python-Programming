@@ -1,0 +1,108 @@
+"""#Check if a number is even
+def number(n):
+    if n % 2 == 0:
+        return "number is even"
+res=number(int(input("enter a number:")))
+print(res)"""
+
+"""#Check if a number is odd
+def check(n):
+    if n % 2 != 0:
+        return "number is odd"
+res=check(int(input("enter a number:")))
+print(res)"""
+
+"""#Check if number is positive
+def check(n):
+    if n > 0:
+        return "number is positive"
+res=check(int(input('enter a number:')))
+print(res)"""
+
+"""#Check if number is greater than 100:
+number =int(input("enter a number:"))
+if number > 100:
+    print("the number is greater than 100")"""
+
+"""# if number is divisible by 5
+def number(n):
+    if n % 5 == 0:
+        return "number is divisible by 5"
+res=number(int(input("enter an number:")))
+print(res)"""
+
+""""#Check if number is divisible by 10.
+def number(n):
+    if n % 10 ==0:
+        return "number is divisible by 10"
+res=number(int(input("enter a number:")))
+print(res)"""
+
+#Check if age is above 18.
+"""def Check(age):
+    if age > 18:
+        return "age is above 18"
+res=Check(int(input("enter a age:")))
+print(res)"""
+
+"""#Check if character is vowel
+def check(char):
+    s = "aeiouAEIOU"
+    if char in s:
+        return f"{char} is a vowel"
+res=check(input("enter a character:"))
+print(res)"""
+
+"""#Check if string length > 5
+def check(s):
+    if len(s) >5:
+        return "given string is greater than 5"
+res=check(input("enter a string:"))
+print(res)"""
+
+"""#Check if list contains 10
+numbers = [24,26,45,10,34,'Gun',True,]
+if 10 in numbers:
+    print("10 is present the list")"""
+
+"""#Check if two numbers are equal.
+def check(n1, n2):
+    if n1 == n2:
+        return "two numbers are equal"
+res=check(int(input("enter a n1:")),int(input("enter a n2:")))
+print(res)"""
+
+"""#Check if number is in range 1–50.
+def check(num):
+    if num >1 and num <50:
+        return "number is between 1-50"
+res=check(int(input("enter a number:")))
+print(res)"""
+
+"""#Check if number is a multiple of 7
+def check(num):
+    if num % 7 == 0:
+        return "number is multiple of 7"
+res =check(int(input("enter a number:")))
+print(res)"""
+
+"""#Check if character is uppercase.
+def check(char):
+    if 'A' <= char <= 'Z':
+        return "given char is uppercase"
+res=check(input("enter the character:"))
+print(res)"""
+
+#Check if character is digit.
+def check(char):
+    if char.isdigit():
+        return "Given character is a digit"
+    else:
+        return "Not a digit"
+
+res = check(input("Enter a character: "))
+print(res)
+
+          
+
+   

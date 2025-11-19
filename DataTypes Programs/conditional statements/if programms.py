@@ -29,21 +29,21 @@ def check(s):
 res = check(input("enter a string:"))
 print(res)"""
 
-"""#create a function which is raeding season and if
+#create a function which is raeding season and if
 #the season is rainy return it is better to carry umbrella.
 def check(season):
     if season == 'rainy':
         return "it is better to carry umbrella"
 res =check(input("enter a season:"))
-print(res)"""
+print(res)
 
-#create a function which is reading time from user
+"""#create a function which is reading time from user
 #if the time is in between 6 and 5 return it is day time.
 def fetch(time):
     if time >=6 and time <=17:
         return "it is day time"
 res = fetch(int(input("enter a time: ")))
-print(res)
+print(res)"""
 
 
 
