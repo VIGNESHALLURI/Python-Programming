@@ -1,0 +1,43 @@
+"""def gene():
+    for i in range(5):
+        yield i
+res = gene()
+for i in range(5):
+    print(next(res))"""
+
+"""#create Generator with Arguments.
+def gen_multiple(n):
+    for i in range(1, 6):
+        yield n * i
+
+for x in gen_multiple(3):
+    print(x)"""
+"""#infinate_generator
+def infinite_counter():
+    n = 1
+    while True:
+        yield n
+        n += 1
+
+res = infinite_counter()
+print(next(res))
+print(next(res))
+print(next(res))"""
+
+"""#Generator Returning Strings
+def gen_words():
+    words = ["hi", "hello", "welcome"]
+    for w in words:
+        yield w
+
+for word in gen_words():
+    print(word)"""
+#Generator Filtering Value
+def even_numbers(n):
+    for i in range(n):
+        if i % 2 == 0:
+            yield i
+
+for i in even_numbers(10):
+    print(i)
+
