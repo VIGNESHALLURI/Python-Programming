@@ -1,0 +1,174 @@
+"""class Phone:
+    def call(self):
+        print("Making a call")
+
+class Smartphone(Phone):
+    def browse(self):
+        print("Browsing internet")
+
+sp = Smartphone()
+sp.call()
+sp.browse()"""
+
+
+"""#singleLevelinheritance
+class Person:
+    def __init__(self, name):
+        self.name = name
+
+class Employee(Person):
+    def show_role(self):
+        print(self.name, "is an employee")
+
+emp = Employee("vignesh")
+print("Name:", emp.name)
+emp.show_role()"""
+"""class Doctor:
+    def check(self, spec):
+        print(spec)
+
+    def give(self):
+        print('doctor gives medicine')
+
+class Patient(Doctor):
+    def admit(self):
+        print("patients will get admit")
+
+P = Patient()
+P.check('ortho')
+P.give()
+P.admit()
+
+d = Doctor()
+d.check("Cardio")
+d.give()"""
+
+"""#Multilevel inheritance
+class GrandFather:
+    def home(self):
+        print("GrandFather has a big house")
+
+class Father(GrandFather):
+    def car(self):
+        print("Father has a car")
+
+class Son(Father):
+    def bike(self):
+        print("Son has a bike")
+
+s = Son()
+s.home()   
+s.car()    
+s.bike()"""
+
+"""#Ex:-2 multilevel inheritance with overriding.
+class Emp:
+    def work(self):
+        print("Employee works")
+class Manager(Emp):
+    def work(self):
+        print("Project Manager plans")
+class ProjManager(Manager):
+    def work(self):
+        print("Project Manager plans")
+obj = ProjManager()
+obj.work()"""
+
+#multiple inheritance
+"""class Father:
+    def money(self):
+        print("Father has 5 lakhs")
+
+class Mother:
+    def care(self):
+        print("Mother takes care of the family")
+
+class Son(Father, Mother):
+    def study(self):
+        print("Son is studying engineering")
+
+s = Son()
+s.money()
+s.care()
+s.study()"""
+
+"""class Phone:
+    def call(self):
+        print(" can make calls")
+
+class Camera:
+    def take_photo(self):
+        print(" can take photos")
+
+class Smartphone(Phone, Camera):
+    def browse(self):
+        print(" can browse internet")
+
+s1 = Smartphone()
+s1.call()
+s1.take_photo()
+s1.browse()"""
+
+"""#4.Hierarchical Inheritance.
+class Student:
+    def common(self):
+        print("All students study in the same college")
+
+class Engineering(Student):
+    def branch(self):
+        print("Branch: Computer Science")
+
+class Medical(Student):
+    def specialization(self):
+        print("Specialization: MBBS")
+
+e = Engineering()
+m = Medical()
+
+e.common()
+e.branch()
+
+m.common()
+m.specialization()"""
+
+#Hybrid Inheritance
+class Person:
+    def common(self):
+        print("All are humans")
+
+class Student(Person):
+    def study(self):
+        print("Student studies")
+
+class Employee(Person):
+    def work(self):
+        print("Employee works")
+
+class WorkingStudent(Student, Employee):
+    def manage(self):
+        print("Working student manages both study and job")
+
+ws = WorkingStudent()
+ws.common()
+ws.study()
+ws.work()
+ws.manage()
+
+class Vehicle:
+    def start(self):
+        print("Vehicle starting")
+
+class Car(Vehicle):
+    def start(self):
+        print("Car starts with key")
+
+class Bike(Vehicle):
+    def start(self):
+        print("Bike starts with kick")
+
+vehicles = [Car(), Bike()]
+
+for v in vehicles:
+    v.start()
+
+

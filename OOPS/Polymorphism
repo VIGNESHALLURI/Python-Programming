@@ -1,0 +1,16 @@
+class Vehicle:
+    def start(self):
+        print("Vehicle starting")
+
+class Car(Vehicle):
+    def start(self):
+        print("Car starts with key")
+
+class Bike(Vehicle):
+    def start(self):
+        print("Bike starts with kick")
+
+vehicles = [Car(), Bike()]
+
+for v in vehicles:
+    v.start()
