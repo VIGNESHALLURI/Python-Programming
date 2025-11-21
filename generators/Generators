@@ -1,9 +1,9 @@
-"""def gene():
+def gene():
     for i in range(5):
         yield i
 res = gene()
 for i in range(5):
-    print(next(res))"""
+    print(next(res))
 
 """#create Generator with Arguments.
 def gen_multiple(n):
@@ -32,6 +32,7 @@ def gen_words():
 
 for word in gen_words():
     print(word)"""
+
 #Generator Filtering Value
 def even_numbers(n):
     for i in range(n):

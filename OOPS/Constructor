@@ -1,0 +1,37 @@
+#There are 2 students with values sno-1 sname-ramesh sub-python, sno-2 snake=suresh
+#sub AI. create a student class with init() and display(). Create above 2 objects and print
+#each student object values by calling display() function
+"""class Student:
+    def __init__(self, sno, name, subject):  # Corrected constructor
+        self.sno = sno
+        self.name = name
+        self.subject = subject
+
+    def display(self):
+        print("Student No:", self.sno)
+        print("Student Name:", self.name)
+        print("Subject:", self.subject)
+        print()
+
+s1 = Student(1, 'Ramesh', 'Python')
+s2 = Student(2, 'Suresh', 'AI')
+
+s1.display()
+s2.display()"""
+   
+#Same as above question, print student object values with object without calling display()
+class Student:
+    def __init__(self, sno, name, subject):
+        self.sno = sno
+        self.name = name
+        self.subject = subject
+
+    def __str__(self):
+        return f"Student No: {self.sno}, Name: {self.name}, Subject: {self.subject}"
+
+s1 = Student(1, 'Ramesh', 'Python')
+s2 = Student(2, 'Suresh', 'AI')
+
+print(s1)
+print(s2)
+

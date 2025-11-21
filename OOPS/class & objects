@@ -1,0 +1,76 @@
+"""##class Animal:
+    def tiger(self):
+        print("tiger is very large")
+a=Animal()
+a.tiger()"""
+
+"""Create an Employee class. Create 2 objects with details:
+eno=101, ename='Ramesh', salary=25000
+eno=102, ename='Suresh', salary=30000
+Display the details using a method.
+class Employee:
+    def details(self,eno,ename,salary):
+        self.eno = eno
+        self.ename = ename
+        self.salary = salary
+    def display(self):
+        print("employee number:",self.eno)
+        print("employee name:",self.ename)
+        print("employee salary:",self.salary)
+e1=Employee()
+e2=Employee()
+
+e1.details(1324,"vignesh",23400)
+e2.details(12567,"varma",98654)
+
+e1.display()
+e2.display()"""
+                                                                                                               
+"""#Trainer can ask to create a class with some requirements like mentioned in the
+#constructor's first question. Trainer has to elaborate the requirements properly.
+#Eg: create a patient class and create 2 patient objects with values pno=1,
+#pname=ramesh, disease = fever. pno=2, pname=suresh, disease=cold.
+#This requires students to create init method also with appropriate parameters. (this
+#question can be included in constructor also).
+class Patient:
+    def set_details(self, pno, pname, disease):
+        self.pno = pno
+        self.pname = pname
+        self.disease = disease
+    def show(self):
+        print("Patient No:", self.pno)
+        print("Patient Name:", self.pname)
+        print("Disease:", self.disease)
+        print()
+p1 = Patient()
+p2 = Patient()
+p1.set_details(1, "Ramesh", "fever")
+p2.set_details(2, "Suresh", "cold")
+p1.show()
+p2.show()"""
+
+#Create a Student class without constructor.
+#Create 2 student objects with:
+#rollno=1, name='Ramesh', marks=85
+#rollno=2, name='Suresh', marks=90
+#Display the details.
+class Student:
+    def details(self,name,rollno,marks):
+        self.name =name
+        self.rollno = rollno
+        self.marks = marks
+
+    def display(self):
+        print("student name:",self.name)
+        print("student rollno:",self.rollno)
+        print("student marks:",self.marks)
+
+s1 =Student()
+s2 =Student()
+
+s1.details("vignesh",15170,85)
+s2.details("varma",12345,90)
+
+s1.display()
+s2.display()
+

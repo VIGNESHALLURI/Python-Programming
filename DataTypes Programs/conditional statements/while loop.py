@@ -16,7 +16,7 @@ greet()"""
 def welcome(func):
     def run():
         print("Welcome!")
-        func()
+        func()  
     return run
 
 @welcome
