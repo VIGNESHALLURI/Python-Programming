@@ -1,0 +1,41 @@
+from abc import ABC, abstractmethod
+
+class Payment(ABC):
+
+    @abstractmethod
+    def pay(self, amount):
+        pass
+
+class UPI(Payment):
+    def pay(self, amount):
+        print("Paid through UPI:", amount)
+
+class Card(Payment):
+    def pay(self, amount):
+        print("Paid through Card:", amount)
+
+u = UPI()
+c = Card()
+u.pay(500)
+c.pay(1000)
+
+from abc import ABC, abstractmethod
+
+class Vehicle(ABC):
+
+    @abstractmethod
+    def start(self):
+        pass
+
+class Car(Vehicle):
+    def start(self):
+        print("Car starts with a key")
+
+class Bike(Vehicle):
+    def start(self):
+        print("Bike starts with selfstart")
+
+v1 = Car()
+v2 = Bike()
+v1.start()
+v2.start()
