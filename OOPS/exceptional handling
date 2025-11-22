@@ -1,0 +1,28 @@
+"""try:
+    a = int(input("Enter first number: "))
+    b = int(input("Enter second number: "))
+    print("Result:", a / b)
+except ZeroDivisionError:
+    print("You cannot divide a number by zero!")"""
+
+"""#mobile recharge
+try:
+    amount = int(input("Enter recharge amount: "))
+    if amount <= 0:
+        raise Exception("Amount must be greater than zero!")
+    print("Recharge successful")
+except ValueError:
+    print("Enter numbers only!")
+except Exception as e:
+    print(e)"""
+
+"""try:
+    balance = 1000
+    amount = int(input("Enter amount to withdraw: "))
+
+    if amount > balance:
+        raise Exception("Insufficient balance!")
+    print("Cash withdrawn:", amount)
+except Exception as e:
+    print(e)"""
+
