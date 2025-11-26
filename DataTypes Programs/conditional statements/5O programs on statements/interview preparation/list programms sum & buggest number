@@ -1,0 +1,52 @@
+"""take a list of numbers find sum of the numbers.
+mylist=[10,20,30,40,50]
+sum = 0
+sum = mylist[0] + sum
+sum = mylist[1] + sum
+sum = mylist[2] + sum
+sum = mylist[3] + sum
+sum = mylist[4] + sum
+print(sum)
+
+#method2:-
+mylist=[10,20,30,40,50]
+sum = 0
+for i in range(0,5):
+    sum = mylist[i] + sum
+print(sum)
+
+#method3:-
+mylist=[10,20,30,40,50]
+sum = 0
+for i in range(0,len(mylist)):
+    sum = mylist[i] + sum
+print(sum)"""
+
+#take list of 5 numbers,find biggest numbers.
+mylist = [10,20,15,23,18]
+big = mylist[0]
+if mylist[1]>big:
+    big = mylist[1]
+if mylist[2]>big:
+    big = mylist[2]
+if mylist[3]>big:
+    big = mylist[3]
+if mylist[4]>big:
+    big = mylist[4]
+print(big)
+
+#method2:-
+mylist = [10,20,15,23,18]
+big = mylist[0]
+for i in range(0,5):
+    if mylist[i]>big:
+        big = mylist[i]
+print(big)
+
+#method3:-
+mylist = [10,20,15,23,18]
+big = mylist[0]
+for i in range(0,len(mylist)):
+    if mylist[i]>big:
+        big = mylist[i]
+print(big)
