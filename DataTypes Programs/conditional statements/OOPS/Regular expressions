@@ -20,10 +20,10 @@ text = "my phone is vivoT2x5g"
 clean = re.sub(r'\s+', ' ', text)
 print(clean)"""
 
-"""import re
+import re
 
 text = "India is a Country and Delhi is the Capital"
 
 words = re.findall(r'\b[A-Z][a-z]*', text)
-print(words)"""
+print(words)
 
