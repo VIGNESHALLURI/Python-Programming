@@ -11,7 +11,7 @@ class BankAccount:
         else:
             print("Insufficient balance")
 
-    def get_balance(self):
+    def getbalance(self):
         return self.balance
 
 account = BankAccount(1000)
@@ -20,5 +20,5 @@ account = BankAccount(1000)
 account.deposit(500)   
 account.withdraw(300)  
 
-print("Current Balance:", account.get_balance())
+print("Current Balance:", account.getbalance())
 

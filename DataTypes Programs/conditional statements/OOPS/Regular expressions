@@ -1,0 +1,29 @@
+"""import re
+
+text = input("Enter text: ")
+
+if re.match(r'^key', text):
+    print("bike Starts with key")
+else:
+    print("Does not start without key")"""
+
+"""import re
+text = input("Enter text: ")
+if re.search(r'python$', text):
+    print("Ends with python")
+else:
+    print("Does not end with python")"""
+
+
+"""import re
+text = "my phone is vivoT2x5g"
+clean = re.sub(r'\s+', ' ', text)
+print(clean)"""
+
+"""import re
+
+text = "India is a Country and Delhi is the Capital"
+
+words = re.findall(r'\b[A-Z][a-z]*', text)
+print(words)"""
+
