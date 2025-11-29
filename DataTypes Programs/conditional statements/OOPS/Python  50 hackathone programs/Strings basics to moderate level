@@ -146,7 +146,7 @@ for i in range(len(s)):
 
 #take a statement. print words in the reverse order. eg: "palle tech pvt ltd" . output : ltd pvt tech 
 #palle. student can use split() function .
-
+"""
 s = "palle tech pvt ltd"
 
 words = s.split()        
@@ -155,4 +155,53 @@ words = words[::-1]
 result = " ".join(words)  
 print(result)
 
+s = "palle tech pvt ltd"
 
+words = s.split()         
+result = """
+# take a statement. print words in the reverse order. 
+# eg: "palle tech pvt ltd" . output : ellap hcet tvp 
+"""
+s = "palle tech pvt ltd"
+
+words = s.split()        
+result = ""
+
+for w in words:
+    result = result + w[::-1] + " "
+
+print(result.strip())"""
+
+#take a string, print unique letters present in the string. 
+"""
+s = "palle tech"
+
+for i in range(len(s)):
+    
+    first_time = True
+    for k in range(i):
+        if s[i] == s[k]:
+            first_time = False
+            break
+    
+    if first_time:
+        count = 0
+        for j in range(len(s)):
+            if s[i] == s[j]:
+                count += 1
+        
+        if count == 1:
+            print(s[i])
+"""
+
+# take a string, print duplicate letters present in the string.
+"""
+s = "palle tech"
+freq = {}
+
+for ch in s:
+    freq[ch] = freq.get(ch, 0) + 1
+
+for ch in freq:
+    if freq[ch] > 1:
+        print(ch)"""
