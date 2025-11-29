@@ -1,0 +1,158 @@
+#19)take a string, reverse the string and print it. check if it is a palindrome string or not. python 
+#students should not use [::-1]'''
+"""
+s = "level"
+x = ''
+x = x + s[4]
+x = x + s[3]
+x = x + s[2]
+x = x + s[1]
+x = x + s[0]
+print('original string:',s)
+print('reversd string:',x)"""
+#for loop approach
+"""
+s = "level"
+x = ''
+for i in range(len(s)-1,-1,-1):
+    x = x + s[i]
+print('original:',s)
+print('reversed:',x)
+
+if s ==x:
+    print(s,"is palindrome string")
+else:
+    print(s,"is not palindrome string")"""
+
+#20) take a string. count how many vowels are there in the string. you have considered both small 
+#letters and capital letters. 
+"""
+s = 'vignesh'
+count = 0 
+if s[0] in ('a,''e,''i,''o,''u,''A,''E,''I,''O,''U'):
+    count = count + 1
+if s[1] in ('a,''e,''i,''o,''u,''A,''E,''I,''O,''U'):
+    count = count + 1
+if s[2] in ('a,''e,''i,''o,''u,''A,''E,''I,''O,''U'):
+    count = count + 1
+if s[3] in ('a,''e,''i,''o,''u,''A,''E,''I,''O,''U'):
+    count = count + 1
+if s[4] in ('a,''e,''i,''o,''u,''A,''E,''I,''O,''U'):
+    count = count + 1
+print(count,'vowels are there')"""
+#for loop approach
+"""
+s = 'vignesh'
+count = 0 
+for i in range(0,len(s)):
+    if s[i] in ('a,''e,''i,''o,''u,''A,''E,''I,''O,''U'):
+        count = count + 1
+print(count,'vowels are there')"""
+
+#take a string. replace vowels in the string with letter z.
+#After that print the string.
+"""
+s = input("Enter a string: ")
+
+vowels = "aeiouAEIOU"
+result = ""
+
+for ch in s:
+    if ch in vowels:
+        result += "z"
+    else:
+        result += ch
+
+print("Modified string:", result)"""
+
+#take a string, count how many words are there. assume that there are no extra spaces in the 
+#string and there are no spaces at the beginning and and the end.
+""" 
+s = "ab ab abc"
+count = 0"""
+
+# brute force: check every position manually
+"""
+if s[0] == ' ':
+    count = count + 1
+if s[1] == ' ':
+    count = count + 1
+if s[2] == ' ':
+    count = count + 1
+if s[3] == ' ':
+    count = count + 1
+if s[4] == ' ':
+    count = count + 1
+if s[5] == ' ':
+    count = count + 1
+if s[6] == ' ':
+    count = count + 1
+if s[7] == ' ':
+    count = count + 1
+if s[8] == ' ':
+    count = count + 1
+
+print(count + 1, "words are there")"""
+#for loop approach
+"""
+s = 'palle tech python banglore'
+s = s.strip()
+count = 0
+
+for i in range(1, len(s)):     
+    if s[i] == ' ' and s[i-1] != ' ':
+        count = count + 1
+
+print(count + 1, "words are there")"""
+
+#take 2 strings. find those 2 strings are anagrams. if 2 strings are of same length, and made up of 
+#same letters with dif combinations then it is anagram.
+"""
+s1 = input("Enter first string: ")
+s2 = input("Enter second string: ")
+
+s1 = s1.replace(" ", "").lower()
+s2 = s2.replace(" ", "").lower()
+
+if len(s1) != len(s2):
+    print("Not anagrams")
+else:
+    
+    if sorted(s1) == sorted(s2):
+        print("Both strings are anagrams")
+    else:
+        print("Not anagrams")"""
+ 
+#take a string. write logic to count how many no of times each letter is repeating in that string. 
+#[letter occurrences] 
+"""
+s = "palle tech"
+
+for i in range(len(s)):
+
+    already = False
+    for j in range(i):
+        if s[i] == s[j]:
+            already = True
+            break
+
+    if not already:
+        count = 0
+        for k in range(len(s)):
+            if s[i] == s[k]:
+                count += 1
+
+        print(s[i], "=", count)"""
+
+#take a statement. print words in the reverse order. eg: "palle tech pvt ltd" . output : ltd pvt tech 
+#palle. student can use split() function .
+
+s = "palle tech pvt ltd"
+
+words = s.split()        
+words = words[::-1]        
+
+result = " ".join(words)  
+print(result)
+
+

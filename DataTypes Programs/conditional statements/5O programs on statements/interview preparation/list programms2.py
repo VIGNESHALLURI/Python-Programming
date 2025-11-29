@@ -46,8 +46,9 @@ if mylist[4]%2==0:
     
 print(count)"""
 
-#take a  mylist =[10,12,13,14,15] count even numbers and odd numbers
-mylist = [10,12,13,14,15]
+#take an array / list of 10 random numbers. 
+# write logic to count how many even nos are there and how many odd numbers are there. 
+"""mylist= [12,32,43,45,67,87,98,34,76,21]
 ecount = 0
 ocount = 0
 
@@ -76,10 +77,36 @@ if mylist[4] % 2 == 0:
 else:                 
     ocount += 1 
 
-print(ecount)
-print(ocount)
+if mylist[5] % 2 == 0:
+    ecount += 1
+else:
+    ocount += 1
 
-#method2:
+if mylist[6] % 2 == 0:
+    ecount += 1
+else:
+    ocount += 1
+
+if mylist[7] % 2 == 0:
+    ecount += 1
+else:
+    ocount += 1
+
+if mylist[8] % 2 == 0:
+    ecount += 1
+else:
+    ocount += 1
+
+if mylist[9] % 2 == 0:
+    ecount += 1
+else:                 
+    ocount += 1
+
+print(ecount)
+print(ocount)"""
+
+#for loop generic logic:-
+mylist= [12,32,43,45,67,87,98,34,76,21]
 ecount = 0
 ocount = 0
 for i in range (0,len(mylist)):

@@ -1,0 +1,89 @@
+#Print 1,2,3,..99,100 using for loop. 
+"""for i in range(1,101):
+    print(i)"""
+
+#Print 0,2,4,6,..98,100 using for loop.
+"""for i in range(0,101,2):
+    print(i)"""
+
+#Print take a no find even or odd.
+"""number =int(input("enter a number:"))
+if number % 2 == 0:
+    print( "given number is even:" )
+else:
+    print("given number is odd:")"""
+
+"""a = 6
+if a % 2==0:
+    print("6 is even number ")
+else:
+    print("6 is odd number"""
+
+#swap with temp and without temp.
+#Swap with Temporary.
+"""a = 10
+b = 20
+temp = a   
+a = b      
+b = temp   
+print(a, b)"""
+#Swap without Temporary.
+"""a= 30
+b= 50
+a = a+b
+b= a-b
+a= a-b
+print(a,b)"""
+
+#print 1-10 first line, 2-20 second line etc. up to 100.
+"""start = 1
+end = 10
+
+for i in range(10):       
+    for num in range(start, end + 1):
+        print(num, end=" ")
+    print()
+    start += 10
+    end += 10"""
+#read a char, find vowel are not with if else, with switch also. 
+"""character = input("enter a character:")
+if character in "aeiouAEIOU":
+    print("the character is vowel")
+else:
+    print("the charcter is not vowel")"""
+
+# read age, find if a person is eligible for voting.
+age = int(input("enter a age:"))
+if age >=18:
+    print ( "person is eligible for voting")
+else:
+    print ( "person is not eligible for voting")
+age =[13,26,17,16,32]
+if age[0] >18:
+    print("person eligible for voting")
+else:
+    print("not eligible for voting")
+age =[11,34,21,17,78]
+if age[0] >=18:
+    print("person eligible for voting")
+else:
+    print("not eligible for voting")
+if age[1] >=18:
+    print("person eligible for voting")
+else:
+    print("not eligible for voting")
+if age[2] >=18:
+    print("person eligible for voting")
+else:
+    print("not eligible for voting")
+if age[3] >=18:
+    print("person eligible for voting")
+else:
+    print("not eligible for voting")
+if age[4] >=18:
+    print("person eligible for voting")
+else:
+    print("not eligible for voting")
+
+
+

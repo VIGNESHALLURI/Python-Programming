@@ -1,0 +1,142 @@
+#take an array / list of 10 random numbers. print elements in reverse order. python students using 
+#for loop with ranges. java people should use a for loop. 
+"""numbers =[24,54,23,76,34,78,98,87,34,12]
+
+for i in range(len(numbers)-1,-1,-1):
+    print(numbers[i])"""
+
+#take an array / list of 10 random numbers. print alternate elements 0th, 2nd, 4th etc. Python 
+#students use for loop with ranges. java should use a for loop.
+"""numbers = [45,76,87,98,23,45,76,65,34,21]
+for i in range(0,len(numbers),2):
+    print(numbers[i])"""
+
+#take array 1/list1 with some random numbers. copy the elements of that array / list into a second 
+#array2 / list2. 
+"""list1 = [1,2,3,4,5]
+list2 = []
+for i in range(len(list1)):
+    list2.append(list1[i])
+
+print("list1:",list1)
+print("list2",list2)"""
+
+# take array 1/list1 with some random numbers. copy the elements of that array / list into a second 
+#array2 / list2 in reverse order.
+"""list1 = [10, 20, 30, 40, 50]
+list2 = []
+
+for i in range(len(list1)-1, -1, -1):   
+    list2.append(list1[i])            
+
+print("list1:", list1)
+print("list2:", list2)"""
+#take an array / list of 10 random numbers. find big in that array / list. don't use the max() 
+#function.
+"""mylist = [10,20,15,23,18,76,54,34,76,65]
+big = mylist[0]
+if mylist[1]>big:
+    big = mylist[1]
+if mylist[2]>big:
+    big = mylist[2]
+if mylist[3]>big:
+    big = mylist[3]
+if mylist[4]>big:
+    big = mylist[4]
+if mylist[5]>big:
+    big = mylist[5]
+if mylist[6]>big:
+    big = mylist[6]
+if mylist[7]>big:
+    big = mylist[7]
+if mylist[8]>big:
+    big = mylist[8]
+if mylist[9]>big:
+    big = mylist[9]
+print(big)"""
+
+#for loop approach
+"""mylist = [10,20,15,23,18,76,54,34,76,33]
+big = mylist[0]
+for i in range(0,len(mylist)):
+    if mylist[i]>big:
+        big = mylist[i]
+print(big)"""
+
+#take an array / list of 10 random numbers. find even big and odd big in that array / list. don't use 
+#the max() function. 
+"""number = [12, 45, 67, 22, 89, 90, 33, 56, 41, 78]
+even_big = -1
+odd_big = -1
+
+for i in range(len(number)):
+    n = number[i]       
+
+    if n % 2 == 0:    
+        if n > even_big:
+            even_big = n
+    else:             
+        if n > odd_big:
+            odd_big = n
+
+print("Numbers:", number)
+print("Biggest Even:", even_big)
+print("Biggest Odd:", odd_big)"""
+
+#take an array / list of 10 random numbers. copy even numbers into array2/list2.
+#  copy odd numbers into array3/list3. don't use copy() or other copying methods.
+"""nums = [12, 45, 67, 22, 89, 90, 33, 56, 41, 78]
+
+even_list = []   
+odd_list = []   
+
+for i in nums:
+    if i % 2 == 0:      # even
+        even_list.append(i)
+    else:               # odd
+        odd_list.append(i)
+
+print("Original List:", nums)
+print("Even List:", even_list)
+print("Odd List:", odd_list)"""
+#take arr1/list1, arr2/list2 with some random numbers. take an empty arr3/list3 of relevant size. 
+#copy first arr1/list1 into arr3/list3. copy the next arr2/list2 elements into arr3/list3.
+"""arr1 = [10, 20, 30, 40]
+arr2 = [50, 60, 70]
+
+size = len(arr1) + len(arr2)
+arr3 = [0] * size   
+
+index = 0
+for i in range(len(arr1)):
+    arr3[index] = arr1[i]
+    index += 1
+
+for i in range(len(arr2)):
+    arr3[index] = arr2[i]
+    index += 1
+
+print("arr1:", arr1)
+print("arr2:", arr2)
+print("arr3:", arr3)"""
+
+
+#take an arr / list with some numbers. 
+#print even nos present in the even positions
+"""mylist = [12, 45, 20, 33, 40, 55, 60]
+print("Even numbers in even positions:")
+for i in range(len(mylist)):
+    if i % 2 == 0:         
+        if mylist[i] % 2 == 0: 
+            print(mylist[i])"""
+#take 2 arrays / lists with some numbers. 
+# add both arrays / list into third array / list.
+mylist1 = [10, 20, 30, 40, 50]
+mylist2 = [1, 2, 3, 4, 5]
+mylist3 = []  
+for i in range(len(mylist1)):
+    mylist3.append(mylist1[i] + mylist2[i])
+print("mylist 1:", mylist1)
+print("mylist 2:", mylist2)
+print("mylist 3 (Sum):", mylist3)
+
