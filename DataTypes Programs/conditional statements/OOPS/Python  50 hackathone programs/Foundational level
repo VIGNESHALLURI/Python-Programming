@@ -53,11 +53,12 @@ else:
     print("the charcter is not vowel")"""
 
 # read age, find if a person is eligible for voting.
-age = int(input("enter a age:"))
+"""age = int(input("enter a age:"))
 if age >=18:
     print ( "person is eligible for voting")
 else:
-    print ( "person is not eligible for voting")
+    print ( "person is not eligible for voting")"""
+
 age =[13,26,17,16,32]
 if age[0] >18:
     print("person eligible for voting")

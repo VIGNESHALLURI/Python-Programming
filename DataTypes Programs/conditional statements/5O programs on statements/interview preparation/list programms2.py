@@ -106,7 +106,7 @@ print(ecount)
 print(ocount)"""
 
 #for loop generic logic:-
-mylist= [12,32,43,45,67,87,98,34,76,21]
+"""mylist= [12,32,43,45,67,87,98,34,76,21]
 ecount = 0
 ocount = 0
 for i in range (0,len(mylist)):
@@ -115,6 +115,10 @@ for i in range (0,len(mylist)):
     else:   
         ocount = ocount + 1
 print(ecount)
-print(ocount)
+print(ocount)""" 
+
+#.take an array / list of 10 random numbers. find big in that array / list. don't use the max() 
+#function.
+
 
 

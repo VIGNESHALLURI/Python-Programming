@@ -69,10 +69,8 @@ print("Modified string:", result)"""
 #string and there are no spaces at the beginning and and the end.
 """ 
 s = "ab ab abc"
-count = 0"""
+count = 0
 
-# brute force: check every position manually
-"""
 if s[0] == ' ':
     count = count + 1
 if s[1] == ' ':
@@ -125,7 +123,7 @@ else:
  
 #take a string. write logic to count how many no of times each letter is repeating in that string. 
 #[letter occurrences] 
-"""
+
 s = "palle tech"
 
 for i in range(len(s)):
@@ -142,66 +140,56 @@ for i in range(len(s)):
             if s[i] == s[k]:
                 count += 1
 
-        print(s[i], "=", count)"""
+        print(s[i], "=", count)
+
 
 #take a statement. print words in the reverse order. eg: "palle tech pvt ltd" . output : ltd pvt tech 
 #palle. student can use split() function .
 """
 s = "palle tech pvt ltd"
 
-words = s.split()        
-words = words[::-1]        
+words = s.split()
+rev_words = []
 
-result = " ".join(words)  
-print(result)
+for i in range(len(words)-1, -1, -1):
+    rev_words.append(words[i])
 
-s = "palle tech pvt ltd"
+result = " ".join(rev_words)
+print(result)"""
 
-words = s.split()         
-result = """
-# take a statement. print words in the reverse order. 
-# eg: "palle tech pvt ltd" . output : ellap hcet tvp 
+#take a statement. print words in the reverse order. eg: "palle tech pvt ltd" . output : ellap hcet tvp 
+#dtl. student can use split() function.
 """
 s = "palle tech pvt ltd"
 
-words = s.split()        
-result = ""
+words = s.split()
+result = []
 
-for w in words:
-    result = result + w[::-1] + " "
+for w in words:                        
+    rev = ""                            
+    for j in range(len(w)-1, -1, -1):   
+        rev += w[j]
+    result.append(rev)
 
-print(result.strip())"""
-
+print(" ".join(result))"""
 #take a string, print unique letters present in the string. 
 """
-s = "palle tech"
+   s = "palletech"
+    unique_letters = []
 
-for i in range(len(s)):
-    
-    first_time = True
-    for k in range(i):
-        if s[i] == s[k]:
-            first_time = False
-            break
-    
-    if first_time:
-        count = 0
-        for j in range(len(s)):
-            if s[i] == s[j]:
-                count += 1
-        
-        if count == 1:
-            print(s[i])
-"""
+    for ch in s:
+        if ch not in unique_letters:  
+            unique_letters.append(ch)
+
+    print(unique_letters)"""
 
 # take a string, print duplicate letters present in the string.
 """
-s = "palle tech"
-freq = {}
-
+s = "palletech"
+duplicates = []
 for ch in s:
-    freq[ch] = freq.get(ch, 0) + 1
+    if s.count(ch) > 1 and ch not in duplicates:
+        duplicates.append(ch)
 
-for ch in freq:
-    if freq[ch] > 1:
-        print(ch)"""
+print(duplicates)"""
+

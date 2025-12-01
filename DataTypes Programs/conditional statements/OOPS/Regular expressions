@@ -1,5 +1,4 @@
 """import re
-
 text = input("Enter text: ")
 
 if re.match(r'^key', text):

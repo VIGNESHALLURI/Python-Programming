@@ -1,0 +1,43 @@
+"""positive = lambda x: x > 0
+print(positive(5))
+print(positive(-3))"""
+
+"""square = lambda x: x * x
+print(square(6))"""
+
+"""nums = [1, 2, 3, 4, 5]
+squares = list(map(lambda x: x*x, nums))
+print(squares)"""
+
+""""maximum = lambda a, b: a if a > b else b
+print(maximum(10, 20))"""
+
+"""last_digit = lambda x: x % 10
+print(last_digit(157))"""
+
+
+"""upper = lambda s: s.upper()
+print(upper("vignesh"))"""
+
+"""names = ["vignesh", "varma", "Alluri"]
+
+upper_names = list(map(lambda x: x.upper(), names))
+print(upper_names)"""
+
+
+"""last_digit = lambda x: x % 10
+print(last_digit(157))"""
+   
+"""nums = [10, 15, 22, 33, 40]
+evens = list(filter(lambda x: x % 2 == 0, nums))
+print(evens)"""
+
+
+"""products = [{"name": "Laptop", "price": 50000},
+               {"name": "Mobile", "price": 15000},
+               {"name": "Tablet", "price": 20000},]
+
+sorted_products = sorted(products, key=lambda p: p["price"])
+print(sorted_products)"""
+
+
