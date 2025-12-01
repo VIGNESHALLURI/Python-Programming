@@ -11,6 +11,5 @@ class Bike(Vehicle):
         print("Bike starts with kick")
 
 vehicles = [Car(), Bike()]
-
 for v in vehicles:
     v.start()
