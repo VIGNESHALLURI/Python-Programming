@@ -1,14 +1,15 @@
 #29)primenumbers
-"""
-num =int(input("enter a number:"))
-isprime =True
-for i in range(2,num):
-    if num %i== 0:
-        print('not prime no')
-        break
-if isprime == True:
-        print('it is prime no')
-"""
+num = 12
+isprime = True
+
+for i in range(2, num):
+    if num % i == 0:
+        isprime = False
+        print(num, "is not prime ")
+
+print()
+
+
 #print upto numbers prime or not
 """
 for j in range(1,100):
@@ -98,7 +99,7 @@ if total == num:
     print("Armstrong Number")
 else:
     print("Not an Armstrong Number")"""
-
+"""
 n = 153
 s = n
 b = len(str(n))
@@ -112,4 +113,4 @@ while n != 0:
 if s == sum1:
     print(s, "is an Armstrong number")
 else:
-    print(s, "is not an Armstrong number")
+    print(s, "is not an Armstrong number")"""

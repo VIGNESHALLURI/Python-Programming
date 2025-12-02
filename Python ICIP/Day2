@@ -1,0 +1,100 @@
+"""#Nested IF: Largest of 3 Numbers
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = int(input("Enter third number: "))
+
+if a > b:
+    if a > c:
+        print("Largest number is:", a)
+    else:
+        print("Largest number is:", c)
+else:
+    if b > c:
+        print("Largest number is:", b)
+    else:
+        print("Largest number is:", c)"""
+
+"""#Check if Number is Positive and Even
+num = int(input("Enter a number: "))
+
+if num > 0:
+    if num % 2 == 0:
+        print("Number is positive and even")"""
+
+"""#Check if Student Passed and Has Distinction
+marks = int(input("Enter marks: "))
+if marks >= 35:
+    if marks >= 75:
+        print("Pass with Distinction")
+    else:
+        print("Pass")"""
+
+"""#ATM: Check Balance → if Enough → Check Multiples of 100
+balance = 5000
+amount = int(input("Enter withdrawal amount: "))
+
+if amount <= balance:
+    if amount % 100 == 0:
+        print("Please collect your cash")
+    else:
+        print("Enter amount in multiples of 100")
+else:
+    print("Insufficient balance")"""
+
+"""#Username Correct → Then Check Password
+username = input("Enter username: ")
+password = input("Enter password: ")
+
+if username == "admin":
+    if password == "1234":
+        print("Login successful")
+    else:
+        print("Incorrect password")
+else:
+    print("Incorrect username")"""
+
+"""#Check Divisible by 2 → Inside Check Divisible by 4
+num = int(input("Enter a number: "))
+
+if num % 2 == 0:
+    if num % 4 == 0:
+        print("Divisible by 4")"""
+
+"""#Temperature: Cold → If <10 Print "Very Cold"
+temp = int(input("Enter temperature: "))
+
+if temp < 20:   # cold
+    if temp < 10:
+        print("Very Cold")"""
+
+"""#Shopping: Bill >1000 → Inside Check Membership Card
+bill = float(input("Enter bill amount: "))
+membership = input("Do you have a membership card? (yes/no): ")
+
+if bill > 1000:
+    if membership == "yes":
+        print("Discount applicable")"""
+
+"""#eligible for vote or not.
+def vote(age,gender):
+    if age>=18:
+        if gender =="male":
+            return "you are eligible for vote sir"
+        elif gender =="female":
+            return "you are eligible for vote madam"
+        else:
+            return "your are  eligible for vote"
+    else: 
+        return "your are not eligible for vote"
+res=vote(int(input("enter age:")),input("enter gender:"))
+print(res)"""   
+
+num = int(input("enter a number:"))
+if num % 3 == 0 and num % 5 == 0:
+    print('fizzbuzz')
+elif num % 3 == 0:
+    print('fizz')
+elif num % 5 == 0:
+    print("buzz")
+else:
+    print("buzzfizz")
